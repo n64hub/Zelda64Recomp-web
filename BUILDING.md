@@ -143,7 +143,3 @@ As the pause menu closes in Clock Town, the game calls osDestroyThread on a thre
 runtime's `thread_queue_remove` does nothing for a null queue (N64ModernRuntime-web f0e0884). Without that, reading
 the queue is an out-of-bounds access in the wasm, which crashes the page about 35 s into `tools/shader_plan.json`'s
 `clock-town` section.
-
-How the page plays, in which browser, on what GPU and on which build, is recorded in N64Recomp-browser's
-[plays.jsonl](https://github.com/n64hub/N64Recomp-browser/blob/main/plays.jsonl) and its
-[games table](https://github.com/n64hub/N64Recomp-browser#games).
